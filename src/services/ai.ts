@@ -18,7 +18,7 @@ async function makeAPIRequest(messages: { role: string; content: string; }[]) {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: 'meta-llama/Llama-2-11b-chat-hf',
+      model: 'meta-llama/Llama-3.2-11B-Vision-Instruct-Turbo',
       messages,
       temperature: 0.7,
       max_tokens: 1024,
